@@ -1,0 +1,1 @@
+compile with multiple c files: `gcc -o main ./main.c ./rad2area.c`
