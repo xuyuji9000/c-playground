@@ -23,8 +23,15 @@ int main() {
     }
 
     free(ptr);
-    ptr=NULL;
+    ptr=NULL; // [1]
     
 
     return 0;
 }
+
+
+/*
+# Reference
+
+1. [Dangling Pointers](https://en.wikiversity.org/wiki/C_Programming/Memory_Management)
+*/
