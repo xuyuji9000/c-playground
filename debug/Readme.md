@@ -40,8 +40,15 @@ OS: centos:8
 
 - Set in GDB
 
+  - Display source code: `layout next`
+
   - Run your program: `run`
 
+  - Step through line by line: `next`
+
+  - Print out variable value: `print VARIABLE_NAME`
+
+  - Go into function: `step`
 
 
 # Reference
