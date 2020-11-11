@@ -25,27 +25,14 @@ A: `gcc -Wall -g program.c`
 
 ## Command
 
-OS: MacOS
+OS: centos:8
 
 - Install 
 
-  `brew install gdb"`
-
-- Create certificate [4]
-
-- Certify `gdb` on MacOS [4]
-
   ``` bash
-  sudo killall taskgated
-  CERTIFICATE_NAME="gdb"
-  codesign --entitlements gdb.xml -fs ${CERTIFICATE_NAME} "$(which gdb)"
+  docker run -it centos:8
+  yum install gcc gdb
   ```
-
-  ``` gdb
-  # ~/.gdbinit
-  set startup-with-shell off
-  ```
-
 
 - Start GDB
 
