@@ -23,9 +23,38 @@ A: `gcc -Wall -g program.c`
 
   >  `-g` generates debug information to be used by GDB debugger [3]
 
-## Installation
+## Command
 
-`brew install gdb`
+OS: MacOS
+
+- Install 
+
+  `brew install gdb"`
+
+- Create certificate [4]
+
+- Certify `gdb` on MacOS [4]
+
+  ``` bash
+  sudo killall taskgated
+  CERTIFICATE_NAME="gdb"
+  codesign --entitlements gdb.xml -fs ${CERTIFICATE_NAME} "$(which gdb)"
+  ```
+
+  ``` gdb
+  # ~/.gdbinit
+  set startup-with-shell off
+  ```
+
+
+- Start GDB
+
+  `gdb a.out`
+
+- Set in GDB
+
+  - Run your program: `run`
+
 
 
 # Reference
@@ -39,3 +68,7 @@ A: `gcc -Wall -g program.c`
 
 3. [gcc -g option flag](https://www.rapidtables.com/code/linux/gcc/gcc-g.html)
 
+
+4. [“please check gdb is codesigned - see taskgated(8)” - How to get gdb installed with homebrew code signed?](https://stackoverflow.com/questions/18423124/please-check-gdb-is-codesigned-see-taskgated8-how-to-get-gdb-installed-w#answer-32727069)
+
+    >  Prepare certificate and certify gdb command on MacOS
