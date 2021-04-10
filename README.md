@@ -7,6 +7,8 @@ This repo is used to document learnings about C language.
 
 - [static function](./static-function/Readme.md)
 
+- [enum](./enum/Readme.md)
+
 
 # Reference 
 
