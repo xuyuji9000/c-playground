@@ -9,6 +9,8 @@ This repo is used to document learnings about C language.
 
 - [enum](./enum/Readme.md)
 
+- [if condition with number](./if-condition-with-number/README.md)
+
 
 # Reference 
 
