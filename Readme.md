@@ -11,6 +11,8 @@ This repo is used to document learnings about C language.
 
 - [if condition with number](./if-condition-with-number/README.md)
 
+- [locate-library-header-location-with-compiler](./locate-library-header-location-with-compiler.md)
+
 
 # Reference 
 
