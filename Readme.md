@@ -13,6 +13,8 @@ This repo is used to document learnings about C language.
 
 - [locate-library-header-location-with-compiler](./locate-library-header-location-with-compiler.md)
 
+- [data-alignment](data-alignment/Readme.md)
+
 
 # Reference 
 
