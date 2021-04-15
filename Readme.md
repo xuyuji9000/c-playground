@@ -15,6 +15,8 @@ This repo is used to document learnings about C language.
 
 - [data-alignment](data-alignment/Readme.md)
 
+- [struct-field-empty-check](./struct-field-empty-check/Readme.md)
+
 
 # Reference 
 
