@@ -44,7 +44,7 @@ A: `gcc -Wall -g program.c`
 
   - Run your program: `run`
 
-  - Break at a specific line: 
+  - Break at a specific line: `break filename:linenumber`
 
   - Step through line by line: `next`
 
