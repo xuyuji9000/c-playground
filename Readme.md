@@ -17,6 +17,10 @@ This repo is used to document learnings about C language.
 
 - [struct-field-empty-check](./struct-field-empty-check/Readme.md)
 
+- [debug](./debug/Readme.md)
+
+    > How to use `gdb` for debugging 
+
 
 # Reference 
 
