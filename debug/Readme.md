@@ -58,6 +58,8 @@ A: `gcc -Wall -g program.c`
 
   - Go into function: `step`
 
+  - Clear screen: `Control + L`
+
 
 # Reference
 
