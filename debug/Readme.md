@@ -23,9 +23,9 @@ A: `gcc -Wall -g program.c`
 
   >  `-g` generates debug information to be used by GDB debugger [3]
 
-## Command
+## Commands
 
-OS: centos:8
+- OS: centos:8
 
 - Install 
 
@@ -38,11 +38,13 @@ OS: centos:8
 
   `gdb a.out`
 
-- Set in GDB
+- Commands within GDB
 
   - Display source code: `layout next`
 
   - Run your program: `run`
+
+  - Break at a specific line: 
 
   - Step through line by line: `next`
 
