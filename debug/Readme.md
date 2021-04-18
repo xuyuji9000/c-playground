@@ -42,6 +42,12 @@ A: `gcc -Wall -g program.c`
 
   - Display source code: `layout next`
 
+    > use `help layout` to get more window options
+
+  - Change window focus: `layout src`
+
+    > use `help focus` to get more window focusing options
+
   - Run your program: `run`
 
   - Break at a specific line: `break filename:linenumber`
