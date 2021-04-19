@@ -13,3 +13,11 @@ gcc -o main ./main.c
 ``` shell
 echo "#include <errno.h>" | gcc -E -x c - | grep errno.h
 ```
+
+
+# Reference
+
+1. [errno(3) — Linux manual page](https://man7.org/linux/man-pages/man3/errno.3.html)
+    
+    > get more details about "errno.h" here
+

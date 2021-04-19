@@ -13,9 +13,10 @@ int main()
 
     if (pf == NULL) {
     
+       // save the errno(error number)
        errnum = errno;
        fprintf(stderr, "Value of errno: %d\n", errno);
-       perror("Error printed by perror");
+       // use errno to get error message
        fprintf(stderr, "Error opening file: %s\n", strerror( errnum ));
     } else {
     
