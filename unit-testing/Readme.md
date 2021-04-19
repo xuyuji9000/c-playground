@@ -1,9 +1,6 @@
 This folder contains learning about C unit test.
 
+- [assert](assert/Readme.md)
 
-- Build command:
-
-``` shell
-gcc -o main main.c
-```
+   > Use *assert.h* for testing
 
