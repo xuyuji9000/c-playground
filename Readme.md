@@ -21,6 +21,8 @@ This repo is used to document learnings about C language.
 
     > How to use `gdb` for debugging 
 
+- [ternary-operator](ternary-operator/Readme.md)
+
 
 # Reference 
 
