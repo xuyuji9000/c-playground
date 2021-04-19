@@ -23,6 +23,10 @@ This repo is used to document learnings about C language.
 
 - [ternary-operator](ternary-operator/Readme.md)
 
+- [use-errno](use-errno/Readme.md)
+
+    > an example of using errno.h
+
 
 # Reference 
 
