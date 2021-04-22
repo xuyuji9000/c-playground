@@ -29,6 +29,7 @@ This repo is used to document learnings about C language.
 
 - [unit-testing](./unit-testing/Readme.md)
 
+- [pointer](./pointer/Readme.md)
 
 # Reference 
 
