@@ -33,6 +33,8 @@ This repo is used to document learnings about C language.
 
 - [pointer](./pointer/Readme.md)
 
+- [shift](./shift/Readme.md)
+
 # Reference 
 
 1. [The C programming Language](https://hikage.freeshell.org/books/theCprogrammingLanguage.pdf)
