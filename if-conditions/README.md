@@ -1,14 +1,6 @@
-This folder contains an example about using number ( -1, 0, 1) for if condition.
+This folder contains examples for confusing *if conditions*.
 
-When number is used for if condition
+- [with-number](with-number/Readme.md)
 
-- 0 means false 
-
-- number other than 0 means true
-
-# Build command
-
-``` shell
-gcc -o main ./main.c
-```
+- [with-boolean-operation](with-boolean-operation/Readme.md)
 
