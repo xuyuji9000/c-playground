@@ -9,7 +9,9 @@ This repo is used to document learnings about C language.
 
 - [enum](./enum/Readme.md)
 
-- [if condition with number](./if-condition-with-number/README.md)
+- [if conditions](./if-conditions/README.md)
+
+    > This folder contains confusing if condition examples
 
 - [locate-library-header-location-with-compiler](./locate-library-header-location-with-compiler.md)
 
