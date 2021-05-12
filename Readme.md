@@ -33,7 +33,8 @@ This repo is used to document learnings about C language.
 
 - [pointer](./pointer/Readme.md)
 
-- [shift](./shift/Readme.md)
+- [bitwise-operations](bitwise-operations/Readme.md)
+
 
 # Reference 
 
